@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "botbuddy",
+  "version": "1.0.0",
+  "name": "BotBuddy",
+  "description": "Spawn fake-player buddies with random Indian/gamer names and command them from a GUI.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.botbuddy.BotBuddy"],
+    "client": ["com.botbuddy.client.BotBuddyClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
